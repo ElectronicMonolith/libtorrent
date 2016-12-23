@@ -1340,7 +1340,7 @@ namespace libtorrent
 		, file_checks_delay_per_block(0)
 		, disk_cache_algorithm(avoid_readback)
 		, read_cache_line_size(32)
-		, write_cache_line_size(32)
+		, write_cache_line_size(1024)
 		, optimistic_disk_retry(10 * 60)
 		, disable_hash_checks(false)
 		, allow_reordered_disk_operations(true)
