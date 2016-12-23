@@ -1289,7 +1289,7 @@ namespace libtorrent
 		, cache_size(1024)
 		, cache_buffer_chunk_size(16)
 		, cache_expiry(300)
-		, use_read_cache(true)
+		, use_read_cache(false)
 		, explicit_read_cache(0)
 		, explicit_cache_interval(30)
 		, disk_io_write_mode(0)
