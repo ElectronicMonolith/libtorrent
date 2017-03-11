@@ -30,3 +30,9 @@ options are available. For python bindings, see `the python docs`__.
 
 .. __: docs/building.rst
 .. __: docs/python_binding.rst
+
+libtorrent v1.0.10
+-----
+This is a modification of the above release. Only the session file has been changed. Modded for easier deployment.
+
+Intended for a 1Gbit Dedicated server running Deluge. No need to use ltConfig plugin.
